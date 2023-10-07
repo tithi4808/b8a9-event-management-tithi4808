@@ -2,20 +2,23 @@ import React from 'react';
 
 const Serve = () => {
     return (
-        <div>
-           <div className='mt-10 grid grid-cols-2  gap-4 bg-slate-200 mx-6 mb-10'>
+        <div className='rounded-lg'>
+           <div className=' mt-10 lg:grid grid-cols-2   bg-slate-200 mx-6 mb-10'>
            <div className='bg-sky-100 p-16 '>
-           <p className='font-bold text-3xl text-end mb-4 mt-8'>WELCOME TO WINK EVENT MANAGEMENT</p>
-           <p className='text-end'>
-           Welcome to our WINK event management website! We are thrilled to offer our services to help you plan and execute your next event. Whether it's a birthday party, wedding,  or any other special occasion, our team of experienced event planners is here to make your vision a reality. From venue selection to catering, entertainment, and decor, we take care of every detail to ensure a seamless and unforgettable experience for you and your guests. Let us take the stress out of event planning and create a memorable event that exceeds your expectations.
-           </p>
+           <p className='font-bold text-3xl text-center lg:text-start mb-4 mt-8'>What We Do?</p>
+           
+          <ul className='list-disc  lg:text-start'>
+            <li>We specialize in planning and executing social events of all types and sizes, including weddings, birthday parties, corporate events, and more.</li>
+            <li>Our team of experienced event planners works closely with clients to understand their vision and preferences, and then creates a customized plan to bring that vision to life.</li>
+            <li>We handle all aspects of event planning, from venue selection and vendor management to catering, entertainment, and decor.</li>
+            <li>Our goal is to create a seamless and stress-free event planning experience for our clients, while delivering a memorable and enjoyable event for their guests.</li>
+            <li>We pride ourselves on our attention to detail, creativity, and professionalism, and are committed to exceeding our clients' expectations every step of the way.</li>
+          </ul>
+           
            
            </div>
-           <div className='grid grid-cols-1 gap-2 lg:grid-cols-2'>
-                <div><img className='h-56 w-96 rounded-lg'  src="https://i.ibb.co/M5Trqt2/download.jpg" alt="" /></div>
-                <img className='h-56 w-96 rounded-lg' src="https://i.ibb.co/SPV9hWj/greece-wedding-santorini-photosession-10-1920x1080-0c6.jpg" alt="" />
-                <img className='h-56 w-96 rounded-lg' src="https://i.ibb.co/Zf154rH/1707.jpg" alt="" />
-                <img className='h-56 w-96 rounded-lg' src="https://i.ibb.co/SPn1fDJ/download-1.jpg" alt="" />
+           <div className=''>
+                <img src="https://i.ibb.co/qN3KVhq/photo-1552664730-d307ca884978.jpg" alt="" />
             </div>
         </div> 
         </div>

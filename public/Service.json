@@ -1,0 +1,194 @@
+ 
+     [ {
+        "id": 1,
+        "name": "Weddings",
+        "image": "https://i.ibb.co/wQbw3y9/istockphoto-1190043570-612x612.jpg",
+        "price": "$1000",
+        "short_description": "Celebrate your special day with our wedding services.",
+        "image1":"https://i.ibb.co/yfZ5sms/photo-1520854221256-17451cc331bf.jpg",
+        "image2":"https://i.ibb.co/j5yYqkj/couple-443600-1280.jpg",
+        "image3":"https://i.ibb.co/jwPh4qJ/photo-1606800052052-a08af7148866.jpg",
+        "descriptions": [
+          {
+            "title": "Venue Decoration",
+            "image": "https://i.ibb.co/89S8wd4/download.jpg",
+            "description": "Transform your wedding venue into a magical setting with our exquisite decorations."
+          },
+          {
+            "title": "Catering Services",
+            "image": "https://i.ibb.co/bzVTF9t/download-1.jpg",
+            "description": "Indulge your guests with a delectable dining experience tailored to your preferences."
+          },
+          {
+            "title": "Photography and Videography",
+            "image": "https://i.ibb.co/SJsc9cn/pexels-asad-photo-maldives-1024993.jpg",
+            "description": "Capture every precious moment of your wedding day with our professional photography and videography services."
+          },
+          {
+            "title": "Entertainment",
+            "image": "https://i.ibb.co/VMJVDzM/pexels-5005252.jpg",
+            "description": "Keep your guests entertained throughout the celebration with our talented performers and musicians."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Birthday Parties",
+        "image": "https://i.ibb.co/b3J4PJb/download-1.jpg",
+        "image1":"https://i.ibb.co/G5VzXVv/download.jpg",
+        "image2":"https://i.ibb.co/Kbwh5Rd/196546005-composition-with-cupcake-on-wooden-table-happy-birthday.jpg",
+        "image3":"https://i.ibb.co/NKZtr3C/name-117905.jpg",
+        "price": "$500",
+        "short_description": "Make your birthday party unforgettable with our event planning services.",
+        "descriptions": [
+          {
+            "title": "Themed Decorations",
+            "image": "https://i.ibb.co/zZvKqRD/photo-1604668915840-580c30026e5f.jpg",
+            "description": "Create a vibrant and themed atmosphere with our creative decorations."
+          },
+          {
+            "title": "Customized Cakes",
+            "image": "https://i.ibb.co/X33WNHS/images.jpg",
+            "description": "Delight your taste buds with our beautifully designed and delicious custom cakes."
+          },
+          {
+            "title": "Photography",
+            "image": "https://i.ibb.co/fdvnnfj/premium-photo-1691752880922-f89ff74f4c16.jpg",
+            "description": "Engage your guests with exciting games and activities suitable for all ages."
+          },
+          {
+            "title": "Party Entertainment",
+            "image": "https://i.ibb.co/svGNmxp/images-1.jpg",
+            "description": "Send your guests home with memorable party favors as a token of appreciation."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Anniversaries",
+        "image": "https://i.ibb.co/MpYCyBD/images.jpg",
+        "image1":"",
+        "image2":"",
+        "image3":"",
+        "price": "$800",
+        "short_description": "Celebrate your love and milestones with our anniversary event planning.",
+        "descriptions": [
+          {
+            "title": "Romantic Decor",
+            "image": "romantic.jpg",
+            "description": "Set the mood with romantic decorations that symbolize your enduring love."
+          },
+          {
+            "title": "Fine Dining Experience",
+            "image": "dining.jpg",
+            "description": "Enjoy an intimate and luxurious dining experience with our gourmet menu options."
+          },
+          {
+            "title": "Live Music and Entertainment",
+            "image": "music.jpg",
+            "description": "Create a magical ambiance with live music performances and entertainment."
+          },
+          {
+            "title": "Renewal of Vows",
+            "image": "vows.jpg",
+            "description": "Reaffirm your commitment with a heartfelt vow renewal ceremony tailored to your preferences."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Engagement Parties",
+        "image": "https://i.ibb.co/2s502g5/depositphotos-406568234-stock-photo-bride-groom-wedding-ceremony-put.jpg",
+        "price": "$600",
+        "image1":"",
+        "image2":"",
+        "image3":"",
+        "short_description": "Celebrate your engagement with a memorable party organized by our experts.",
+        "descriptions": [
+          {
+            "title": "Chic Decor",
+            "image": "chic.jpg",
+            "description": "Create a stylish and sophisticated ambiance with our chic decorations."
+          },
+          {
+            "title": "Signature Cocktails",
+            "image": "cocktails.jpg",
+            "description": "Delight your guests with our expertly crafted signature cocktails and beverage options."
+          },
+          {
+            "title": "Engagement Games",
+            "image": "games.jpg",
+            "description": "Engage your guests with fun and interactive games designed to celebrate your love story."
+          },
+          {
+            "title": "Photo Booth",
+            "image": "photobooth.jpg",
+            "description": "Capture joyful moments with a dedicated photo booth complete with props and accessories."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Retirement Parties",
+        "image": "https://i.ibb.co/sgjgkhr/download.jpg",
+        "image1":"",
+        "image2":"",
+        "image3":"",
+        "price": "$400",
+        "short_description": "Celebrate a successful career and new beginnings with our retirement party planning.",
+        "descriptions": [
+          {
+            "title": "Personalized Decor",
+            "image": "personalized.jpg",
+            "description": "Create a personalized and meaningful atmosphere with decorations that reflect the retiree's interests and achievements."
+          },
+          {
+            "title": "Special Tribute",
+            "image": "tribute.jpg",
+            "description": "Honor the retiree with a special tribute or speech to commemorate their contributions and accomplishments."
+          },
+          {
+            "title": "Entertainment and Activities",
+            "image": "entertainment.jpg",
+            "description": "Keep the celebration lively with entertainment options and engaging activities for guests to enjoy."
+          },
+          {
+            "title": "Retirement Cake",
+            "image": "cake.jpg",
+            "description": "Mark the occasion with a customized retirement cake that captures the retiree's personality and interests."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "image1":"",
+        "image2":"",
+        "image3":"",
+        "name": "Baby Shower",
+        "image": "https://i.ibb.co/pxFMskQ/istockphoto-1340431639-612x612.jpg",
+        "price": "$300",
+        "short_description": "Welcome the arrival of a new bundle of joy with our baby shower planning services.",
+        "descriptions": [
+          {
+            "title": "Adorable Decor",
+            "image": "adorable.jpg",
+            "description": "Create a charming and whimsical atmosphere with adorable baby-themed decorations."
+          },
+          {
+            "title": "Baby Shower Games",
+            "image": "babygames.jpg",
+            "description": "Entertain your guests with fun and interactive baby shower games that celebrate the parents-to-be."
+          },
+          {
+            "title": "Sweet Treats",
+            "image": "sweets.jpg",
+            "description": "Indulge in a variety of sweet treats and desserts that will satisfy everyone's cravings."
+          },
+          {
+            "title": "Gift Registry Assistance",
+            "image": "registry.jpg",
+            "description": "Provide guidance and assistance to guests with the baby shower gift registry."
+          }
+        ]
+      }]
+  

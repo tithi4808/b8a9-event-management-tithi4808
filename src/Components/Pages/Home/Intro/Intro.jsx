@@ -2,9 +2,9 @@ import React from 'react';
 
 const Intro = () => {
     return (
-        <div className='mt-10 grid grid-cols-2 gap-4 bg-slate-200 mx-6 mb-10'>
-            <div className='grid grid-cols-1 gap-2 lg:grid-cols-2'>
-                <div><img className='h-56 w-96 rounded-lg'  src="https://i.ibb.co/M5Trqt2/download.jpg" alt="" /></div>
+        <div className='mt-10  flex flex-col-reverse md:grid grid-cols-2  bg-slate-200 mx-6 mb-10'>
+            <div className='grid grid-cols-2 md:grid-cols-1 gap-2 lg:grid-cols-2'>
+                <div><img className='h-56 w-96 rounded-lg'  src="https://i.ibb.co/LrHZ8Xk/20211107-Mengjie-Liu-T257.jpg" alt="" /></div>
                 <img className='h-56 w-96 rounded-lg' src="https://i.ibb.co/SPV9hWj/greece-wedding-santorini-photosession-10-1920x1080-0c6.jpg" alt="" />
                 <img className='h-56 w-96 rounded-lg' src="https://i.ibb.co/Zf154rH/1707.jpg" alt="" />
                 <img className='h-56 w-96 rounded-lg' src="https://i.ibb.co/SPn1fDJ/download-1.jpg" alt="" />
