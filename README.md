@@ -1,8 +1,11 @@
-# React + Vite
+# Website Name: WINK Event Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Live Link:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+####  Different features and functionalities of my website:
++ The home page contains the introduction section
++ Users can see different types of services on service section
++ Users have to log in to see details of services
++ Users can read blogs from blog page
++ Contact information has provided by which users can contact with the event management team
+  
