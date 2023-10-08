@@ -23,10 +23,18 @@ const Navbar = () => {
     const links=<>
         
        
-       <NavLink to='/'>Home</NavLink>
-       <NavLink to='/blogs'>Blogs</NavLink>
-       <NavLink to='/contacts'>Contact</NavLink>
-        <NavLink to='/profile'>Your Profile</NavLink>
+       <NavLink className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-sky-300 text-white px-2 rounded-lg" : ""
+  } to='/'>Home</NavLink>
+       <NavLink className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-sky-300 text-white px-2 rounded-lg" : ""
+  } to='/blogs'>Blogs</NavLink>
+       <NavLink className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-sky-300 text-white px-2 rounded-lg" : ""
+  } to='/contacts'>Contact</NavLink>
+        <NavLink className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "bg-sky-300 text-white px-2 rounded-lg" : ""
+  } to='/profile'>Your Profile</NavLink>
         
         
        
@@ -60,11 +68,13 @@ const Navbar = () => {
                 <p className='text-lg text-center flex justify-center items-center'>{User.displayName}</p>
               </div>
               <button className='text-xl hover:bg-sky-300 hover:text-white font-semibold mr-6 border-2 py-1 px-4' onClick={handlelogout}>Logout</button>
-            </div> :<NavLink className='text-xl font-semibold mr-6 border-2 py-2 px-4' to='/login'>Login</NavLink>
+            </div> :<div className='hidden md:inline-block'><NavLink className='text-xl font-semibold mr-6 border-2 py-2 px-4' to='/login'>Login</NavLink></div>
           }
         </div>
         <div className='navbar-end md:hidden'>
-        <NavLink className='text-xl font-semibold mr-6 border-2 py-2 px-4' to='/login'>Login</NavLink>
+        {
+          User? <NavLink className='text-xl font-semibold mr-6 border-2 py-2 px-4' onClick={handlelogout}>Logout</NavLink> :<NavLink className='text-xl font-semibold mr-6 border-2 py-2 px-4' to='/login'>Login</NavLink>
+        }
         </div>
       </div>
     );

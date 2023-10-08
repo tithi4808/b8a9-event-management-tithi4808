@@ -26,7 +26,7 @@ const Register = () => {
         if(password.length<6)
         {
           seterrormg('Password should have at least 6 character')
-            toast(errormsg)
+            toast(errormsg);
             return;
         }
         

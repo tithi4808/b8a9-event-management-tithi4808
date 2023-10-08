@@ -11,12 +11,14 @@ import Contacts from "../Components/Pages/Contacts/Contacts";
 import Blogs from "../Components/Pages/Blogs/Blogs";
 import Profile from "../Components/Pages/Profile/Profile";
 import Blogdetails from "../Components/Pages/BlogDetails/Blogdetails";
+import Errorpage from "../Components/Pages/ErrorPage/Errorpage";
 
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement:<Errorpage></Errorpage>,
       children:[
         {
             path:'/',

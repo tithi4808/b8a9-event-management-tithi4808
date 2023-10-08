@@ -4,7 +4,7 @@ import { AuthContext } from '../../Authprovider/Authprovider';
 import { toast,ToastContainer } from 'react-toastify';
 
 const Login = () => {
-  const {login,User}=useContext(AuthContext)
+  const {login,User,googlelogin}=useContext(AuthContext)
   const location=useLocation()
   
   const navigate=useNavigate()
@@ -22,6 +22,15 @@ const Login = () => {
           navigate(location?.state?location.state:'/' )
         })
         .catch(error=>toast(error.code))
+    }
+    const handlegooglelogin=()=>{
+      googlelogin()
+      .then(result=>
+        {
+          console.log(result.user)
+          navigate(location?.state?location.state:'/' )
+        })
+      .catch(error=>console.log(error.message))
     }
 
     
@@ -52,7 +61,10 @@ const Login = () => {
           </label>
         </div>
         <div className="form-control mt-6">
-          <button className='btn bg-sky-300 text-white'>Login</button>
+          <button className='btn  bg-sky-300 text-white '>Login</button>
+        </div>
+        <div className="form-control ">
+          <button onClick={handlegooglelogin} className='btn'>Login with Google</button>
         </div>
         <p className='mt-4 text-sm'>Don't have an account?Please <span> <NavLink className='text-blue-400 hover:underline' to='/register'>Register</NavLink> </span> </p>
       </form>
