@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Card = ({card}) => {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 800,
+          delay: 50,
+          
+          
+        });
+      }, [])
 
     const {name,image,price,short_description,id}=card
     const navigate=useNavigate()
@@ -13,7 +23,7 @@ const Card = ({card}) => {
 
     
     return (
-            <div className="card card-compact lg:w-96 bg-sky-50 shadow-xl">
+            <div className="card card-compact lg:w-96 bg-sky-50 shadow-xl" data-aos="fade-up">
             <figure className='h-40 w-full px-12 mt-8 rounded-full'><img src={image} alt={name} /></figure>
             <div className="card-body">
             <h2 className="card-title justify-center text-2xl">{name}</h2>
