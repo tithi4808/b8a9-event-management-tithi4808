@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: ReferenceError: greetign is not defined
 
-<i>Write your explanation here</i>
+<i>Here greetign was not properly declared as a variable.so we can not assign any value in greetign.a variable declaration must start with var/let or const</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: "12"
 
-<i>Write your explanation here</i>
+<i>The output will be 12 whose type is a string.Because the second parameter of the calling function is not a number(NaN).it is a string.so we can not sum one number and one string.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: ['🍕', '🍫', '🥑', '🍔']
 
-<i>Write your explanation here</i>
+<i>on the second line the info is assigned a object where the property favouriteFood is assigned with the value of food[0].in 3rd line favouritefood was reassigned. it will not affect the food array on the first line</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: Hi there, undefined
 
-<i>Write your explanation here</i>
+<i>Here ${name} will be undefined function because the calling function did not pass any argument</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i>Here count starts with 0.in foreach if(num) checks every num of the array is weather truthy .We know 0 is falsy in js.so it starts with 1 and count will be 0+1=1,then num will be 2 and count will be 1+1=2 and then num will be 3 and count will be 2+1=3  </i>
 
 </p>
 </details>
