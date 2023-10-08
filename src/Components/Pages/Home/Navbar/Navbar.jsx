@@ -24,8 +24,9 @@ const Navbar = () => {
         
        
        <NavLink to='/'>Home</NavLink>
-       <NavLink to='/Events'>Events</NavLink>
-        <NavLink to='/Contact'>Contacts</NavLink>
+       <NavLink to='/blogs'>Blogs</NavLink>
+       <NavLink to='/contacts'>Contact</NavLink>
+        <NavLink to='/profile'>Your Profile</NavLink>
         
         
        
@@ -44,11 +45,11 @@ const Navbar = () => {
           </div>
           <a className="btn btn-ghost normal-case text-xl"><span className='font-bold text-3xl'>Wink</span> <span className='text-sm mt-3'>Events Management</span></a>
         </div>
-        <div className="  hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-6">
-          <div className='font-semibold space-x-4 text-lg'>
+        <div className="  hidden lg:flex navbar-center font-semibold space-x-4 ">
+          <ul className="menu menu-horizontal px-1 text-lg gap-6">
+          
           {links}
-          </div>
+          
           </ul>
         </div>
         <div className="navbar-end ">
